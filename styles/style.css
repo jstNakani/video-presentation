@@ -10,9 +10,10 @@
         width: 100%;
         transform: translateX(-3%);
         height: 100svh;
-        border: 5px dotted gainsboro;
+        border: 5px solid gainsboro;
         padding: 20px;
         justify-content: center;
+        border-radius: 20px;
     }
     #welcome_message{
         text-align: center;
@@ -28,9 +29,10 @@
     }
     #cucei_logo{
         position: absolute;
-        top: 100px;
+        top: 190px;
         left: 50%;
         transform: translateX(-50%);
         width: 700px;
-        border: 10px outset rgb(123, 123, 123);
+        border: 10px dashed rgb(179, 179, 179);
+        border-radius: 30px;
     }
