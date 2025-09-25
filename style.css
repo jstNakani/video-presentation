@@ -1,5 +1,4 @@
     #presentation_video{
-        background-image: url('./images/video_background.jpg');
         background-size: 100% 115%;
         background-position-y: -32px;
         display: inline;
@@ -10,13 +9,15 @@
         width: 86%;
         transform: translateY(100%);
         height: 24%;
-        border: 35px solid rgba(46, 254, 195, 0.2);
+        border: 35px solid rgba(46, 254, 195, 0.1);
+        background-color: linear-gradient(90deg, rgba(52, 228, 251, 1) 25%, rgba(48, 238, 255, 1) 50%, rgba(55, 252, 242, 1) 75%, rgba(47, 255, 217, 1) 100%);
         backdrop-filter: blur(6px);
         -webkit-backdrop-filter: blur(6px);
         justify-content: center;
         border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.5);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     }
+
     #welcome_message{
         box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 1);
         border-radius: 5px;
